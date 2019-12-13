@@ -1,5 +1,6 @@
 <templateSet group="ObProject">
-  <template name="banner" value="{% include 'theme/_element/_banner.html.twig' with {'bannerName': '$BANNER_NAME$'} %}" description="Встраивание баннера в код старницы" toReformat="false" toShortenFQNames="true">
+  <template name="banner" value="{% include 'theme/_element/_banner$MODIFICATOR$.html.twig' with {'bannerName': '$BANNER_NAME$'} %}" description="Встраивание баннера в код старницы" toReformat="false" toShortenFQNames="true">
+    <variable name="MODIFICATOR" expression="enum(&quot;&quot;,&quot;__aside_top&quot;,&quot;__bottom&quot;,&quot;__header__desktop&quot;,&quot;__header__mobile&quot;,&quot;__post_list&quot;)" defaultValue="&quot;&quot;" alwaysStopAt="true" />
     <variable name="BANNER_NAME" expression="enum(&quot;Moscow&quot;,&quot;Kursk&quot;,&quot;Vladivostok&quot;,&quot;Sevastopol&quot;)" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="Twig" value="true" />
