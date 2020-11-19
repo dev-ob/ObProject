@@ -7,7 +7,7 @@
     </context>
   </template>
   <template name="group" value="@group $GROUP_NAME$" description="назначение тесту группы" toReformat="false" toShortenFQNames="true">
-    <variable name="GROUP_NAME" expression="enum(&quot;registration&quot;, &quot;authorisation&quot;, &quot;subscription&quot;, &quot;email_campaign&quot;, &quot;service_email&quot;, &quot;tech_pages&quot;, &quot;remind_pwd&quot;, &quot;topic_approval&quot;, &quot;lang&quot;, &quot;url_generator&quot;, &quot;oborot_api&quot;, &quot;third_party_api&quot;, &quot;twig_ext&quot;, &quot;content_form&quot;, &quot;seo&quot;, &quot;advertisement&quot;, &quot;&quot;)" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <variable name="GROUP_NAME" expression="enum(&quot;unit&quot;,&quot;functional&quot;,&quot;registration&quot;, &quot;authorisation&quot;, &quot;subscription&quot;, &quot;email_campaign&quot;, &quot;service_email&quot;, &quot;tech_pages&quot;, &quot;remind_pwd&quot;, &quot;topic_approval&quot;, &quot;lang&quot;, &quot;url_generator&quot;, &quot;oborot_api&quot;, &quot;third_party_api&quot;, &quot;twig_ext&quot;, &quot;content_form&quot;, &quot;seo&quot;, &quot;advertisement&quot;, &quot;&quot;)" defaultValue="&quot;&quot;" alwaysStopAt="true" />
     <context>
       <option name="PHP Comment" value="true" />
     </context>
